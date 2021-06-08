@@ -1,5 +1,5 @@
 .calculator_container{
-    background: #fdd950;
+    background: #212025;
     display: grid;
     grid-gap: 30px;
     padding: 15px;
@@ -14,12 +14,13 @@
 }
 .calculator_row label{
     font-size: 30px;
-    color: #010101;
+    color: #fff;
     line-height: 1.388;
     margin-bottom: 10px;
     padding-top: 20px;
 }
 .calculator_row input{
+    color: #fff;
     width: 100%;
 }
 .calculator_row input[type="range"]{
@@ -67,15 +68,18 @@
     text-align: center;
     -webkit-border-radius: 5px;
     border-radius: 5px;
+    width: 145px;
+    height: 65px;
 }
 .calculator_total{
     font-size: 60px;
     font-weight: 700;
-    color: #010101;
+    color: #fff;
     line-height: 1;
     white-space: nowrap;
 }
 .calculator_price{
+    color: #fff;
     font-size: 30px;
     white-space: nowrap;
 }
